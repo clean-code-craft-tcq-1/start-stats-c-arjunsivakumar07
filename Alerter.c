@@ -1,3 +1,6 @@
+extern int emailAlertCallCount;
+extern int ledAlertCallCount;
+
 void emailAlerter()
 {
 	emailAlertCallCount++;
